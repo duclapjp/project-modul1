@@ -3,7 +3,6 @@ let adressClose =document.querySelector('#address-close');
 let count = 0;
     adressOpen.addEventListener("click",function (){
         document.querySelector('.address-form').style.display = "flex";
-       console.log(document.querySelector('.address-form').style.display)
     })
 
     adressClose.addEventListener('click',function (){
